@@ -1,2 +1,5 @@
 
 brand color: #0066ff
+
+hero text:
+Reserve your table today and let us transport you to a world where flavor meets elegance, and every bite is a masterpiece.

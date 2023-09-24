@@ -67,8 +67,6 @@ body {
   padding: 0 4.8rem;
 }
 
-
-
 .logo-img {
   height: 3.2rem;
   background-color: #fff;
@@ -77,16 +75,15 @@ body {
 
 /* NAVBAR */
 
-.nav-links{
+.nav-links {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 3.2rem;
-
 }
 
 .nav-link:link,
-.nav-link:visited{
+.nav-link:visited {
   display: inline-block;
   text-decoration: none;
   font-size: 1.6rem;
@@ -97,13 +94,12 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:active{
+.nav-link:active {
   color: #3385ff;
 }
 
-
 .nav-links .nav-cta:link,
-.nav-links .nav-cta:visited{
+.nav-links .nav-cta:visited {
   background-color: #0066ff;
   color: #fff;
   padding: 1.2rem 2.2rem;
@@ -111,6 +107,44 @@ body {
 }
 
 .nav-links .nav-cta:hover,
-.nav-links .nav-cta:active{
+.nav-links .nav-cta:active {
   background-color: #005ce6;
+}
+
+/* 
+### Hero section #####
+*/
+
+.hero-section {
+  background-color: #e6f0ff;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.heading-primary {
+  font-weight: 700;
+  font-size: 4.8rem;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.8;
+  margin-top: 2.4rem;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 9px;
 }
